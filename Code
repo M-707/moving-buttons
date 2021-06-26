@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.Forward {
+  color: green;
+}
+
+.Forward:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.Backward {
+  color: dodgerblue;
+}
+
+.Backward:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.Right {
+  color: orange;
+}
+
+.Right:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.Left {
+  color: red;
+}
+
+.Left:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.Stop {
+  color: black;
+}
+
+.Stop:hover {
+  background: #e7e7e7;
+}
+</style>
+</head>
+<body>
+
+
+<p>Moveing</p>
+
+<button class="btn Forward">Forward</button>
+<button class="btn Backward">Backward</button>
+<button class="btn Right">Right</button>
+<button class="btn Left">Left</button>
+<button class="btn Stop">Stop</button>
+
+</body>
+</html>
